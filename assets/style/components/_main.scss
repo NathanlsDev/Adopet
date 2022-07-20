@@ -1,0 +1,44 @@
+@use '../abstract/colors' as c;
+@use '../abstract/fonts' as f;
+@use '../abstract/mixins' as m;
+
+.main{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  .main__logo{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+  }
+  .main__title{
+    color: c.$white;
+    font-family: f.$ibm;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .main__text{
+    color: c.$white;
+    margin-bottom: 1.8rem;
+  }
+  .main__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;   
+    .button{
+      @include m.button;
+    }    
+  }
+  .main__ilustration{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    .ilustration{
+      content: url(/assets/img/svg/ilustration.svg);
+              
+    }
+  }
+}
