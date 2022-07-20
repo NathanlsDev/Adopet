@@ -6,6 +6,6 @@
 ## Sobre
 <div>
 <p>A empresa AdoPet têm como objetivo fazer o intermédio entre adotantes de animais e ONGs</p>
-<p>Projeto proposto na 4° Edição do Challenge front-end da <a href="https://www.alura.com.br/challenges/front-end-4?host=https://cursos.alura.com.br">Alura</a></p>
+<p>Projeto proposto na 4° Edição do Challenge front-end da <a href="https://www.alura.com.br/challenges/front-end-4?host=https://cursos.alura.com.br" target="_blank">Alura</a>🔗</p>
 </div>
 
