@@ -8,6 +8,7 @@
 }
 
 body {
+  background: url(/assets/img/svg/form-top.svg) no-repeat;
   background-color: hsl(222deg, 100%, 61%);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -21,11 +22,13 @@ body {
   display: flex;
   align-items: center;
   gap: 3rem;
-  padding: 2rem;
+  padding: 3rem;
+  margin-bottom: 2rem;
 }
 .header .header__img {
   width: 23px;
   height: 20px;
+  cursor: pointer;
 }
 
 .main {
@@ -33,6 +36,7 @@ body {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  background: url(/assets/img/svg/form-right.svg) no-repeat right top;
   position: relative;
 }
 .main .main__logo {
@@ -55,6 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-bottom: 350px;
 }
 .main .main__buttons .button {
   font-family: "Poppins", sans-serif;
@@ -66,14 +71,17 @@ body {
   width: 210px;
   height: 40px;
   border-radius: 6px;
+  cursor: pointer;
 }
 .main .main__buttons .button:hover {
   background-color: hsl(0deg, 100%, 81%);
 }
 .main .main__ilustration {
-  display: flex;
-  align-items: center;
-  justify-content: baseline;
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: -1;
 }
 .main .main__ilustration .ilustration {
   content: url(/assets/img/svg/ilustration.svg);
@@ -91,4 +99,7 @@ body {
 }
 .footer .footer__infos a {
   color: inherit;
+}
+.footer .footer__infos a:hover {
+  color: hsl(222deg, 100%, 61%);
 }/*# sourceMappingURL=style.css.map */
