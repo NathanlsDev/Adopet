@@ -1,5 +1,5 @@
-@use '../abstract/fonts' as f;
 @use '../abstract/colors' as c;
+@use '../abstract/fonts' as f;
 
 .footer{
   display: flex;
@@ -10,7 +10,10 @@
   .footer__infos{
     color: c.$white;
     a{
-      color: inherit;      
+      color: inherit;
+      &:hover{
+        color: c.$blue;
+      }   
     }
   }
 }
