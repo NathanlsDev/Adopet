@@ -1,12 +1,14 @@
 .header{
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  padding: 3rem;
-  margin-bottom: 2rem;
-  .header__img{
-    width: 23px;
-    height: 20px;
-    cursor: pointer;
+  .nav__header{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    .nav__img{
+      width: 23px;
+      height: 20px;
+      cursor: pointer;
+    }
   }
 }

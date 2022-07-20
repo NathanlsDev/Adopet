@@ -18,14 +18,14 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.header .nav__header {
   display: flex;
   align-items: center;
   gap: 3rem;
   padding: 3rem;
   margin-bottom: 2rem;
 }
-.header .header__img {
+.header .nav__header .nav__img {
   width: 23px;
   height: 20px;
   cursor: pointer;
@@ -52,14 +52,17 @@ body {
   margin-bottom: 1rem;
 }
 .main .main__text {
+  display: flex;
+  flex-direction: column;
   color: hsl(0deg, 0%, 100%);
   margin-bottom: 1.8rem;
+  width: 270px;
 }
 .main .main__buttons {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-bottom: 350px;
+  margin-bottom: 310px;
 }
 .main .main__buttons .button {
   font-family: "Poppins", sans-serif;
