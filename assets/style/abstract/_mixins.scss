@@ -1,0 +1,17 @@
+@use 'colors' as c;
+@use 'fonts' as f;
+
+@mixin button (){
+  font-family: f.$poppins;
+  color: c.$white;
+  background-color: c.$coral;
+  box-shadow: 1px 1px 5px 1px c.$black;
+  font-weight: 600;
+  padding: 8px 29px;
+  width: 210px;
+  height: 40px;
+  border-radius: 6px;
+  &:hover{
+    background-color: c.$hv-coral;
+  } 
+}
