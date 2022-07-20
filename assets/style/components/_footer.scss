@@ -1,0 +1,16 @@
+@use '../abstract/fonts' as f;
+@use '../abstract/colors' as c;
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: c.$green;
+  height: 104px;
+  .footer__infos{
+    color: c.$white;
+    a{
+      color: inherit;      
+    }
+  }
+}
