@@ -16,3 +16,35 @@
     background-color: c.$hv-coral;
   } 
 }
+
+@mixin  header {
+  .nav__header{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    .nav__img{
+      width: 23px;
+      height: 20px;
+      cursor: pointer;
+    }
+  }  
+}
+
+@mixin footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: c.$green;
+  height: 104px;
+  .footer__infos{
+    color: c.$white;
+    a{
+      color: inherit;
+      &:hover{
+        color: c.$blue;
+      }   
+    }
+  }  
+}
