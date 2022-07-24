@@ -31,19 +31,6 @@ body {
   cursor: pointer;
 }
 
-.header__login .nav__header {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  padding: 3rem;
-  margin-bottom: 2rem;
-}
-.header__login .nav__header .nav__img {
-  width: 23px;
-  height: 20px;
-  cursor: pointer;
-}
-
 .main {
   display: flex;
   align-items: center;
@@ -91,6 +78,9 @@ body {
 }
 .main .main__buttons .button:hover {
   background-color: hsl(0deg, 100%, 81%);
+}
+.main .main__buttons .button a {
+  color: inherit;
 }
 .main .main__ilustration {
   position: absolute;

@@ -14,7 +14,10 @@
   cursor: pointer;
   &:hover{
     background-color: c.$hv-coral;
-  } 
+  }
+  a{
+    color: inherit;
+  }
 }
 
 @mixin  header {
